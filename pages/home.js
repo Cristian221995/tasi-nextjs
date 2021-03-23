@@ -78,7 +78,7 @@ const Home = ({}) => {
                     className="w-50 mt-2 border"
                     onClick={() => setFocus("dni")}
                   >
-                    DNI
+                    {"DNI"}
                   </Button>
                 </Col>
               </Row>
@@ -89,7 +89,7 @@ const Home = ({}) => {
                     className="w-50 mt-2 border"
                     onClick={() => setFocus("key")}
                   >
-                    Clave
+                    {"Clave"}
                   </Button>
                 </Col>
               </Row>{" "}

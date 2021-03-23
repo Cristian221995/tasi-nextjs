@@ -12,7 +12,7 @@ const Cancellation = () => {
     return () => clearTimeout(timer);
   });
 
-  return <Layout title={`La operación ha sido cancelada`} />;
+  return <Layout title={"La operación ha sido cancelada"} />;
 };
 
 export default Cancellation;

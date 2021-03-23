@@ -36,7 +36,7 @@ const InsufficientBalanceModal = ({ isOpen }) => {
               className="text-white"
               onClick={() => setShowConfirmModal(true)}
             >
-              Cancelar
+              {"Cancelar"}
             </Button>
           </Col>
           <Col>
@@ -44,12 +44,12 @@ const InsufficientBalanceModal = ({ isOpen }) => {
               color="primary"
               onClick={() => toggleAndRedirect("/balance")}
             >
-              Consultar saldo
+              {"Consultar saldo"}
             </Button>
           </Col>
           <Col>
             <Button color="primary" onClick={toggleModal}>
-              Otro monto
+              {"Otro monto"}
             </Button>
           </Col>
         </Row>

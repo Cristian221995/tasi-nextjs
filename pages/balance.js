@@ -13,7 +13,7 @@ const Balance = () => {
   return (
     <Layout title={`Su saldo es`}>
       <h5 className="text-center mt-3 mb-3">{"$" + user.balance}</h5>
-      <div className="text-center">¿Desea realizar otra operación?</div>
+      <div className="text-center">{"¿Desea realizar otra operación?"}</div>
       <Row className="text-center mt-3">
         <Col>
           <Button
@@ -21,14 +21,14 @@ const Balance = () => {
             className="border"
             onClick={() => redirect("/operations")}
           >
-            Si
+            {"Si"}
           </Button>{" "}
           <Button
             color="warning"
             className="border text-white"
             onClick={() => redirect("/cancellation")}
           >
-            No
+            {"No"}
           </Button>
         </Col>
       </Row>

@@ -17,7 +17,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "1")}
           >
-            1
+            {"1"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -26,7 +26,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "2")}
           >
-            2
+            {"2"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -35,7 +35,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "3")}
           >
-            3
+            {"3"}
           </Button>
         </Col>
       </Row>
@@ -46,7 +46,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "4")}
           >
-            4
+            {"4"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -55,7 +55,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "5")}
           >
-            5
+            {"5"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -64,7 +64,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "6")}
           >
-            6
+            {"6"}
           </Button>
         </Col>
       </Row>
@@ -75,7 +75,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "7")}
           >
-            7
+            {"7"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -84,7 +84,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "8")}
           >
-            8
+            {"8"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -93,7 +93,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "9")}
           >
-            9
+            {"9"}
           </Button>
         </Col>
       </Row>
@@ -104,7 +104,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={onDeleteCharacter}
           >
-            Borrar
+            {"Borrar"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -113,7 +113,7 @@ const Keyboard = ({
             className="text-white w-100 border"
             onClick={() => onChangeValue(value + "0")}
           >
-            0
+            {"0"}
           </Button>
         </Col>
         <Col xs="auto" style={{ width: 110 }}>
@@ -124,7 +124,7 @@ const Keyboard = ({
             style={{ fontSize: 13, height: "100%" }}
             disabled={disabled}
           >
-            Continuar
+            {"Continuar"}
           </Button>
         </Col>
       </Row>

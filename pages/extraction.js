@@ -73,7 +73,7 @@ const Extraction = () => {
                 onClick={() => setAmount(500)}
               />{" "}
               <Label check for="radio1-option2">
-                $500
+                {"$500"}
               </Label>
             </Col>
           </Row>
@@ -86,7 +86,7 @@ const Extraction = () => {
                 onClick={() => setAmount(2000)}
               />{" "}
               <Label check for="radio1-option2">
-                $2000
+                {"$2000"}
               </Label>
             </Col>
           </Row>
@@ -99,7 +99,7 @@ const Extraction = () => {
                 onClick={() => setAmount(3000)}
               />{" "}
               <Label check for="radio1-option2">
-                $3000
+                {"$3000"}
               </Label>
             </Col>
           </Row>
@@ -114,7 +114,7 @@ const Extraction = () => {
                 onClick={() => setAmount(5000)}
               />{" "}
               <Label check for="radio1-option2">
-                $5000
+                {"$5000"}
               </Label>
             </Col>
           </Row>
@@ -127,7 +127,7 @@ const Extraction = () => {
                 onClick={() => setAmount(6000)}
               />{" "}
               <Label check for="radio1-option2">
-                $6000
+                {"$6000"}
               </Label>
             </Col>
           </Row>
@@ -140,7 +140,7 @@ const Extraction = () => {
                 onClick={() => setAnotherAmount(true)}
               />{" "}
               <Label check for="radio1-option2" className="ml-5">
-                Otro Monto
+                {"Otro Monto"}
               </Label>
             </Col>
           </Row>
@@ -153,7 +153,7 @@ const Extraction = () => {
             color="warning"
             onClick={() => setShowModal(true)}
           >
-            Cancelar
+            {"Cancelar"}
           </Button>
         </Col>
         <Col className="text-center">
@@ -163,7 +163,7 @@ const Extraction = () => {
             onClick={verifyAmount}
             disabled={!anotherAmount && !amount}
           >
-            Continuar
+            {"Continuar"}
           </Button>
         </Col>
       </Row>

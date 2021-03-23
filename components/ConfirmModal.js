@@ -17,10 +17,10 @@ const ConfirmModal = ({ isOpen, onDone, message }) => {
       <ModalBody>{message}</ModalBody>
       <ModalFooter>
         <Button color="primary" onClick={onCLickConfirm}>
-          Si
+          {"Si"}
         </Button>{" "}
         <Button color="warning" className="text-white" onClick={toggleModal}>
-          Cancelar
+          {"Cancelar"}
         </Button>
       </ModalFooter>
     </Modal>

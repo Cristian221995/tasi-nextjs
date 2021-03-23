@@ -32,7 +32,7 @@ const Operations = () => {
 
   return (
     <Layout title={`Bienvenido ${user.name}`}>
-      <h6 className="text-center">¿Que operación deseas realizar?</h6>
+      <h6 className="text-center">{"¿Que operación deseas realizar?"}</h6>
       <Row className="mb-2 mt-3 text-center">
         <Col>
           <Button
@@ -40,7 +40,7 @@ const Operations = () => {
             className="w-75 border"
             onClick={() => redirect("/extraction")}
           >
-            Extracción
+            {"Extracción"}
           </Button>
         </Col>
         <Col>
@@ -49,7 +49,7 @@ const Operations = () => {
             color="primary"
             onClick={() => redirect("/deposit")}
           >
-            Depósito
+            {"Depósito"}
           </Button>
         </Col>
       </Row>
@@ -60,7 +60,7 @@ const Operations = () => {
             color="primary"
             onClick={() => redirect("/balance")}
           >
-            Consulta de saldo
+            {"Consulta de saldo"}
           </Button>
         </Col>
       </Row>
@@ -69,7 +69,7 @@ const Operations = () => {
         color="warning"
         onClick={() => setShowModal(true)}
       >
-        Cancelar
+        {"Cancelar"}
       </Button>
       {showModal && (
         <ConfirmModal
