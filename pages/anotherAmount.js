@@ -66,7 +66,12 @@ const AnotherAmount = () => {
     <Layout title={`Otro monto`}>
       <Row className="mt-5">
         <Col className="text-center">
-          <h4>{"$" + (amount === "" ? "0" : amount)}</h4>
+          <h4>
+            {"$" +
+              (amount === ""
+                ? "0"
+                : new Intl.NumberFormat("en-IN").format(amount))}
+          </h4>
         </Col>
         <Col>
           <Keyboard

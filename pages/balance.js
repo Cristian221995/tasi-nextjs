@@ -12,7 +12,9 @@ const Balance = () => {
 
   return (
     <Layout title={`Su saldo es`}>
-      <h5 className="text-center mt-3 mb-3">{"$" + user.balance}</h5>
+      <h5 className="text-center mt-3 mb-3">
+        {"$" + new Intl.NumberFormat("en-IN").format(user.balance)}
+      </h5>
       <div className="text-center">{"¿Desea realizar otra operación?"}</div>
       <Row className="text-center mt-3">
         <Col>

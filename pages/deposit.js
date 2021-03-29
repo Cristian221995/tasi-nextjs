@@ -127,7 +127,9 @@ const Deposit = () => {
         </Col>
         <Col>
           <div className="text-center">{"Monto a depositar"}</div>
-          <div className="text-center mb-3 mt-2">{"$" + totalAmount}</div>
+          <div className="text-center mb-3 mt-2">
+            {"$" + new Intl.NumberFormat("en-IN").format(totalAmount)}
+          </div>
           <Keyboard
             onChangeValue={onChangeValue}
             onDeleteCharacter={deleteCharacter}

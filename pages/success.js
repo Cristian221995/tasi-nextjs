@@ -16,7 +16,9 @@ const Balance = () => {
 
   return (
     <Layout
-      title={`Su (extracción o depósito) de monto $${amount}, en la cuenta ${user.account}, fue realizado con éxito`}
+      title={`Su (extracción o depósito) de monto $${new Intl.NumberFormat(
+        "en-IN"
+      ).format(amount)}, en la cuenta ${user.account}, fue realizado con éxito`}
     />
   );
 };

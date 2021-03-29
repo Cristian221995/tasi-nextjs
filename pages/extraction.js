@@ -86,7 +86,7 @@ const Extraction = () => {
                 onClick={() => setAmount(2000)}
               />{" "}
               <Label check for="radio1-option2">
-                {"$2000"}
+                {"$2,000"}
               </Label>
             </Col>
           </Row>
@@ -99,7 +99,7 @@ const Extraction = () => {
                 onClick={() => setAmount(3000)}
               />{" "}
               <Label check for="radio1-option2">
-                {"$3000"}
+                {"$3,000"}
               </Label>
             </Col>
           </Row>
@@ -114,7 +114,7 @@ const Extraction = () => {
                 onClick={() => setAmount(5000)}
               />{" "}
               <Label check for="radio1-option2">
-                {"$5000"}
+                {"$5,000"}
               </Label>
             </Col>
           </Row>
@@ -127,7 +127,7 @@ const Extraction = () => {
                 onClick={() => setAmount(6000)}
               />{" "}
               <Label check for="radio1-option2">
-                {"$6000"}
+                {"$6,000"}
               </Label>
             </Col>
           </Row>
